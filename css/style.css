@@ -698,7 +698,7 @@ a.active {
     width: 150px;
     height: 150px;
     /*원크기조정가능*/
-    background-color: #d39642;
+    background-color: #caa75f;
     /*1.bar 채워지지않은 비워있는 color*/
     border-radius: 50%;
     position: relative;
@@ -726,7 +726,7 @@ a.active {
 
 .skill-box>.skills-circle>ul>li>span.text~b,
 .skill-box>.skills-circle>ul>li>span~b~b {
-        color: chocolate;
+        color: #60606e;
     font-weight: normal;
     margin-top: 2em;
 }
