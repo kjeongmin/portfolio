@@ -1,82 +1,3 @@
-/*눈누 티웨이폰체*/
-@font-face {
-    font-family: 'twayfly';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayfly.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'twayair';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'twaysky';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/*한림고딕체*/
-@font-face {
-    font-family: 'HallymGothic-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-}
-
-/*KITA*/
-@font-face {
-    font-family: '-KITA-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/-KITA-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/*페이북 글꼴 Bold*/
-@font-face {
-    font-family: 'paybooc-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/*페이북글꼴 ExtraBold*/
-@font-face {
-    font-family: 'paybooc-ExtraBold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-ExtraBold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/*페이북글꼴 Medium*/
-@font-face {
-    font-family: 'paybooc-Medium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/*티몬 티움체*/
-@font-face {
-    font-family: 'Tium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/Tium.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/*티몬 몬소리체*/
-
-@font-face {
-    font-family: 'TmonMonsori';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /*
 * Resume template
 * Created by : Ahmed Essa
@@ -110,53 +31,89 @@ font-family: 'Playfair Display', serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
 
 /* typography
 ==================================================*/
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'TheJamsil5Bold';
     font-size: 80px;
     line-height: 70px;
-    color: #948972;
+    color: #9b921b;
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: TheJamsil5bolder;
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #806643;
+    color: #473f33;
+
     font-weight: 700;
 }
 
-h4 img{
-    width: 44px;height: 54px;
-}
 
-
-
+img
 /* General
 ==================================================*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-family: TheJamsil5Bold;
+    font-size: 14px;
     line-height: 24px;
 }
 
-.size-50 {
-    font-family: twayair;
-    font-size: 50px;
-    line-height: 50px
+.size-501 {
+
+    font-size: 65px;
+    line-height: 70px;
+    font-family: TheJamsil5Bold;
+    font-weight: 300;
+    color: #7b641a;
+    width: 330px;
+    height: 150px;
+
+
+
 }
 
 .h-50 {
     height: 50px;
 }
-
-.h-2,.h-3,.span1{font-family: 'paybooc-Bold';}
 
 
 /* preloader
@@ -332,13 +289,14 @@ nav li {
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #60606e;
-    font-size: 13px;
-    font-weight: bold;
+    color: rgb(126 107 65);
+    font-size: 11px;
+    font-weight: 700;
+    font-family: TheJamsil5Bold;
 }
 
 .bg-nav {
-    background-color: rgb(182 156 122 / 40%);
+    background: rgba(225, 225, 225, 0.7);
     border-bottom: 1px solid #f3f3f3
 }
 
@@ -347,18 +305,17 @@ nav li a {
 }
 
 a:focus {
-    color: #fff;
+    color: #444;
     text-decoration: none;
 }
 
 a:hover {
-    color: #493d2d;
+    color: #473f33;
     text-decoration: none;
 }
 
 a.active {
-    color: #493d2d;
-    ;
+    color: #473f33;
 }
 
 
@@ -376,14 +333,13 @@ a.active {
 
 
     #home .container h2 {
-          text-align: right;
-    width: 500px;
-    font-size: 50px;
-    color: #3b3933;
-    margin: 40px 0 0 340px;
-    font-family: 'Lato', sans-serif;
-    
-}
+        width: 600px;
+        font-family: TheJamsil5Bolder;
+        font-size: 55px;
+        color: #9e6b3a;
+        margin: 35px 0 0 404px;
+        font-weight: 400;
+    }
 
     .table-cell {
         display: table-cell;
@@ -392,19 +348,15 @@ a.active {
 
     }
 
-    .table-cell .h1_1 {
-        color:  #4b3519;
+    .table-cell h1 {
+        color: #7b641a;
         padding-top: 100px;
-        font-family: twaysky;
+        font-family: S-CoreDream;
+        font-weight: 600;
+
+
     }
 
-.table-cell .h1_2 {
-        color: #8c834f;
-        font-family: twaysky;
-        padding-left: 60px;
-        padding-top: 15px;
-    }
-    
     .disply-table {
         display: table;
         height: 100vh;
@@ -453,7 +405,7 @@ a.active {
 
 @media (min-width:501px)and (max-width:1199px) {
     h1 {
-        font-family: 'twaysky', serif;
+        font-family: 'Playfair Display', serif;
         font-size: 50px;
         line-height: 50px;
     }
@@ -463,19 +415,18 @@ a.active {
         height: 100vh;
     }
 
-    .disply-table .h1_1 {
-        color: #4b3519;;
+    .disply-table h1 {
+        color: #7b641a;
         margin-top: 100px;
+        font-weight: GongGothicMedium;
+        font-family: GongGothicMedium;
+
     }
 
-   .disply-table .h1_2 {
-        color: #8c834f;
-    }
-    
     .container h2 {
         text-align: center;
-        font-size: 50px;
-        color: #3b3933;
+        font-size: 55px;
+        color: #9e6b3a;
         font-family: 'Lato', sans-serif;
     }
 
@@ -520,17 +471,23 @@ a.active {
 }
 
 #about span {
-    color: #6d6453;
+    color: #7b641a;
     font-weight: 600;
-    font-size: 16px;
-    font-family: twayair;
 }
 
 .about-img-div img {
     margin: 0 auto;
 }
 
-
+.about-border {
+    position: absolute;
+    border: 10px solid rgba(153, 107, 187, 0.4);
+    width: 400px;
+    height: 400px;
+    top: 40px;
+    left: 50px;
+    z-index: 1
+}
 
 .h {
     font-size: 16px;
@@ -539,15 +496,17 @@ a.active {
 }
 
 .h-1 {
-    font-family: paybooc-Bold;
     padding: 30px 0 10px;
     font-weight: 500;
-    color: #493d2d;
+    color: #3a392d;
     letter-spacing: 5%;
+    font-family: GongGothicMedium;
+
 }
 
 .h-3 {
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
 
@@ -555,9 +514,10 @@ a.active {
 ==================================================*/
 
 #experience {
-    padding: 100px 0 40px;
-    background: #fffaee
+    padding: 100px 0 12px;
+    background: #fffaee;
 }
+
 
 .experience-row {
     padding: 20px 0;
@@ -610,14 +570,8 @@ a.active {
     float: left;
 }
 
-.timeline-event:hover .timeline-event-icon {
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    background-color: #425BB5;
-}
-
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #4b3519;
+    box-shadow: inset 40em 0 0 0 #a18932;
 }
 
 .timeline-event-copy {
@@ -630,13 +584,12 @@ a.active {
 
 .timeline-event-copy h3 {
     font-size: 1.2em;
-    font-family: 'twayair';
+
 }
 
 .timeline-event-copy h4 {
     font-size: 1em;
     margin-bottom: 1em;
-    font-family: 'paybooc-Bold';
 }
 
 .timeline-event-copy strong {
@@ -647,7 +600,22 @@ a.active {
     padding-bottom: 1em;
 }
 
+.timeline-event-icon {
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+    transition: -webkit-transform 0.2s ease-in;
+    transition: transform 0.2s ease-in;
+    transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
 
+    display: block;
+    margin: 0.5em 0.5em 0.5em -0.5em;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 1em;
+    height: 1em;
+}
 
 .timeline-event-thumbnail {
     -moz-transition: box-shadow 0.5s ease-in 0.2s;
@@ -659,32 +627,32 @@ a.active {
     color: white;
     font-size: 12px;
     font-weight: bold;
-    background-color: #4b3519;
-    box-shadow: inset 0 0 0 0em #948972;
+    background-color: #473f33;
+    box-shadow: inset 0 0 0 0em #a18932;
     display: inline-block;
-    margin-bottom: 1.2em;
+    margin-bottom: 0.2em;
     padding: 0.25em 1em 0.2em 1em;
-    font-family: 'paybooc-Bold';
+
 }
 
 /* skill section
 ==================================================*/
 #skills {
     background: #fcf3e0;
-    padding: 50px;
+    padding: 100px 0 0 0;
 }
 
 .skill-box {
-    width: 100%;
+    width: 80%;
     padding: 20px;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 
 }
 
 .skill-box>h3 {
     margin-bottom: 15px;
-    color: #60606e;
+    color: #333;
 }
 
 .skill-box>.skills-circle>ul {
@@ -698,7 +666,7 @@ a.active {
     width: 150px;
     height: 150px;
     /*원크기조정가능*/
-    background-color: #caa75f;
+    background-color: #aaa;
     /*1.bar 채워지지않은 비워있는 color*/
     border-radius: 50%;
     position: relative;
@@ -708,27 +676,29 @@ a.active {
 }
 
 .skill-box>.skills-circle>ul>li>span {
-    color: #948972;
+    color: #585347;
     font-size: 35px;
     padding: 1.5em;
 }
 
 .skill-box>.skills-circle>ul>li>span.text,
 .skill-box>.skills-circle>ul>li>span~b {
-    font-family: 'paybooc-Bold';
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    font-family: TheJamsil5bolder;
+
     margin-top: -8px;
     z-index: 1;
 }
 
 .skill-box>.skills-circle>ul>li>span.text~b,
 .skill-box>.skills-circle>ul>li>span~b~b {
-        color: #60606e;
     font-weight: normal;
     margin-top: 2em;
+    font-family: TheJamsil5Bold;
+    font-size: 12px;
 }
 
 .skill-box>.skills-circle>ul>li>span.bar-circle-right,
@@ -738,7 +708,7 @@ a.active {
     display: block;
     width: 100%;
     height: 100%;
-    background:  #4b3519;
+    background: #a58b2d;
     /*bar 채워지는 color*/
     clip: rect(0, 75px, 150px, 0);
 }
@@ -768,7 +738,7 @@ a.active {
 ==================================================*/
 
 #projects {
-    padding: 50px 0 120px;
+    padding: 97px 0 130px;
     background: #fcf3e0;
 }
 
@@ -786,7 +756,6 @@ a.active {
 .portfolio .categories-grid .categories ul li a {
     display: inline-block;
     color: #60606e;
-    font-family: 'paybooc-Bold';
     padding: 0 10px;
     margin: 0 14px;
     -webkit-transition: all .2s ease-in-out .2s;
@@ -799,7 +768,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color:  #4b3519;
+    background-color: #473f33;
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -832,8 +801,14 @@ a.active {
     opacity: 0;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    color: #60606e;
-    ;
+    color: #333;
+}
+
+.portfolio-border_clearfix {
+    width: 390px;
+    height: 130px;
+    position: absolute;
+    top: 53%;
 }
 
 .portfolio_item .portfolio_item_hover .item_info {
@@ -846,6 +821,10 @@ a.active {
     padding: 10px;
     width: 100%;
     font-weight: bold;
+}
+
+.d79 {
+    margin: 0;
 }
 
 .portfolio_item .portfolio_item_hover .item_info span {
@@ -899,9 +878,9 @@ a.active {
 }
 
 .portfolio_filter {
+    margin-top: -20px;
     padding-left: 0;
     display: inline-block;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -913,7 +892,7 @@ a.active {
 
 .portfolio-inner {
     padding-bottom: 0 !important;
-    padding-top: 55px;
+
 }
 
 .modal-content {
@@ -956,7 +935,7 @@ a.active {
 
 #contact {
     padding: 30px 0;
-    background: #fffaee
+    background: #fcf3e0;
 }
 
 #contact p {
@@ -1073,7 +1052,7 @@ fieldset {
 }
 
 .social li a {
-    color: #60606e;
+    color: #333;
     font-size: 35px;
     margin-right: 15px;
     transition: all .3s;
@@ -1103,19 +1082,11 @@ fieldset {
 }
 
 @media (max-width: 500px) {
-    .h1_1 {
-        font-family:  'twaysky', serif;
-        font-size: 45px;
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
         line-height: 50px;
-        color: #4b3519;    
     }
-
-        .h1_2 {
-            font-family: 'twaysky', serif;
-            font-size: 40px;
-            line-height: 50px;
-            color: #8c834f;
-        }
 
     #home,
     .disply-table {
@@ -1126,27 +1097,26 @@ fieldset {
         width: 265px;
     }
 
+    .item_info {
+        margin-top: 10px;
+    }
+
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
     }
 
-    .disply-table .h1_1 {
-        color: #4b3519; 
+    .disply-table h1 {
+        color: #7b641a;
         margin-top: 100px;
-    }
+        font-family: TheJamsil5Bold;
 
-    .disply-table .h1_2 { 
-        margin-top: 14px;
-        color: #8c834f;
     }
-
 
     .container h2 {
         text-align: right;
-        font-size: 35px;
-        color: #3b3933;
-	    margin-right: 55px;
+        font-size: 60px;
+        color: #9e6b3a;
         font-family: 'Lato', sans-serif;
     }
 
@@ -1194,29 +1164,36 @@ fieldset {
     }
 }
 
+
 .portfolio_container .col-md-12 {
     padding-left: 0;
     padding-right: 0;
 }
 
-.item_info {
-    padding-top: 50px;
+
+.project_btn_box a:hover {
+    color: #473f33;
+    background: #d1caae;
+    border: 1px solid #473f33;
 }
 
 .project_btn {
     display: inline-block;
-    padding: 5px 20px;
-    border: 1px solid #b59670;
+    padding: 5px 12px;
+    border: 1px solid #d1caae;
+    font-family: SUITE-Regular;
+    font-weight: 600;
     border-radius: 30px;
-    color: #fff;
-    background-color: #4b3519;
-    font-family: 'paybooc-Bold';
-    margin: 2px;
+    margin: 2px 0px;
+    color: #d1caae;
+    background-color: #473f33;
 }
 
-.project_btn:hover {
-    color: #4b3519;
-    background: #fff;
+.d79 a:visited,
+.project_btn_box a:visited {
+    color: #532273;
+    background: #d1caae;
+    border: 1px solid #473f33;
 }
 
 .project_btn_box {
@@ -1229,9 +1206,80 @@ fieldset {
 }
 
 .portfolio_item {
-    height: 230px;
+    height: 236px;
 }
 
 .portfolio_bg {
     background: url(../img/portfolio/01.jpg);
 }
+
+/*말풍선*/
+.project_btns {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    z-index: 99;
+    margin: 40px 0 0 20px;
+    ;
+}
+
+.project_btns img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    display: block;
+}
+
+
+.arrow_box {
+    z-index: 99;
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    left: 285px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 4px;
+    background: #c4b89f;
+    color: #473f33;
+    font-size: 8px;
+    font-weight: 600;
+    font-family: 'SUITE-Regular';
+    top: 100px;
+}
+
+.arrow_box:after {
+    position: absolute;
+    /* bottom: 100%; */
+    left: 20%;
+    bottom: -60%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    border: solid transparent;
+    border-color: rgba(51, 51, 51, 0);
+    border-bottom-color: #c4b89f;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+    transform: scaleY(-1);
+    transition: .3s;
+}
+
+.project_btnsT {
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top: 80px;
+    left: 282px;
+}
+
+.project_btnsT:hover+p.arrow_box {
+    display: block;
+}
+
+/*말풍선*/
